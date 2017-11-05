@@ -41,6 +41,31 @@
     .navbar-inverse .navbar-nav li a {
       color: #FFFF66;
     }
+    .carousel-caption {
+      top: 50%;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+    }
+
+    .btn {
+      font-size: 18px;
+      color: white;
+      background-color: #FE0000;
+      padding: 12px 22px;
+      border: 2px solid #FFF;
+    }
+
+    .btn:hover {
+      color: black;
+      border: 2px solid black;
+    }
+
+    /* mobile version */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -76,7 +101,7 @@
         <div class="item active">
           <img class="slider" src="img/fallingwater.jpg">
           <div class="carousel-caption">
-            <h1>Be Bold</h1>
+            <h1>Captivate</h1>
             <br>
             <button type="button" class="btn bt-default">Learn More</button>
             </div>
@@ -102,7 +127,62 @@
             </a>
 
         </div>
-        <!-- end slider -->
+  </div>
+  <!-- end slider -->
+
+  <div class="container text-center">
+    <h2>To Be Frank...</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="frontimage" src="img/flwsunglasses.jpg" id="icon">
+        <h4>Looking cool.</h4>
+      </div>
+      <div class="col-sm-6">
+        <div>8-bit blue bottle adaptogen paleo hella meditation master cleanse woke. 
+          Flannel vegan dreamcatcher schlitz keffiyeh ennui asymmetrical shaman crucifix
+           jean shorts narwhal XOXO live-edge vape tumeric. Four loko master cleanse pickled
+            williamsburg la croix offal. Authentic food truck four loko artisan skateboard
+             before they sold out street art green juice irony bicycle rights four dollar
+              toast gentrify shabby chic. Cornhole photo booth tofu, next level seitan austin
+               pitchfork cliche plaid 90's master cleanse bicycle rights normcore meditation.
+                Put a bird on it banjo poutine gochujang crucifix ramps, poke vinyl thundercats 
+                gentrify lyft cred echo park. Fashion axe chillwave locavore man braid hoodie.
+                 Shoreditch gastropub leggings, flannel tofu 8-bit cold-pressed pork belly 
+                 disrupt ramps biodiesel. Blog readymade pinterest 8-bit mlkshk, hella
+                  franzen hashtag heirloom church-key meh hot chicken adaptogen.
+                   Tumblr ennui pop-up fixie master cleanse cronut la croix lyft.
+                    Adaptogen cloud bread coloring book kitsch truffaut
+                     mumblecore williamsburg cred pinterest occupy.
+            </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Here's the cool thing.</h4>
+          <div>8-bit blue bottle adaptogen paleo hella meditation master cleanse woke. 
+              Flannel vegan dreamcatcher schlitz keffiyeh ennui asymmetrical shaman crucifix
+               jean shorts narwhal XOXO live-edge vape tumeric. Four loko master cleanse pickled
+                williamsburg la croix offal. Authentic food truck four loko artisan skateboard
+                 before they sold out street art green juice irony bicycle rights four dollar
+                  toast gentrify shabby chic. Cornhole photo booth tofu, next level seitan austin
+                   pitchfork cliche plaid 90's master cleanse bicycle rights normcore meditation.
+                    Put a bird on it banjo poutine gochujang crucifix ramps, poke vinyl thundercats 
+                    gentrify lyft cred echo park. Fashion axe chillwave locavore man braid hoodie.
+                     Shoreditch gastropub leggings, flannel tofu 8-bit cold-pressed pork belly 
+                     disrupt ramps biodiesel. Blog readymade pinterest 8-bit mlkshk, hella
+                      franzen hashtag heirloom church-key meh hot chicken adaptogen.
+                       Tumblr ennui pop-up fixie master cleanse cronut la croix lyft.
+                        Adaptogen cloud bread coloring book kitsch truffaut
+                         mumblecore williamsburg cred pinterest occupy.
+                </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/logo.png" class="img-responsive">
+          </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
