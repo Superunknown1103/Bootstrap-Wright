@@ -15,7 +15,11 @@
 .specialpic {
     height: 250px;
 }
-
+.solidborder {
+    border: 3px solid red;
+    background-color: #FFDE96;
+    padding: 10px;
+}
 .fontsize2 {
     font-size: 15px;
     border: 3px solid red;
@@ -88,6 +92,10 @@
     border: 2px solid #FFF;
   }
 
+  .inbtn {
+      color: white !important;
+  }
+
   .btn:hover {
     color: black;
     border: 2px solid black;
@@ -99,15 +107,18 @@
   }
 
   footer {
-    height: 200px;
-    padding: 5%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
     background-color: #FE0000;
     color: white;
-    margin-bottom: 0 auto;
+    font-family: 'Bad Script', cursive;
   }
 
   .fa {
-    padding: 15px;
+    margin-top: 20px;
+    padding: 10px !important;
     font-size: 30px;
     color: white;
   }
