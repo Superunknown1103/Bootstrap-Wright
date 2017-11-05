@@ -65,7 +65,38 @@
       width: 500px;
     }
 
+    footer {
+      height: 200px;
+      padding: 5%;
+      background-color: #FE0000;
+      color: white;
+      margin-bottom: 0 auto;
+    }
+
+    .fa {
+      padding: 15px;
+      font-size: 30px;
+      color: white;
+    }
+
+    .fa:hover {
+      color: #d5d5d5;
+      text-decoration: none;
+    }
+
+    .footer-icon {
+      max-width: 100px;
+      max-height: 100px;
+    }
+
     /* mobile version */
+
+    @media (max-width: 900px) {
+      .fa {
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
     @media (max-width: 600px) {
       .carousel-caption {
         display: none;
@@ -214,5 +245,24 @@
               </div>
         </div>
       </div>
+
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Contact the Foundation</h3>
+            <br>
+            <h4>Our address and contact info.</h4>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/logo.png" class="icon footer-icon">
+              </div>
+        </div>
+      </footer>
 </body>
 </html>
