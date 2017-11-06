@@ -1,43 +1,40 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #FE0000;
+    background-color: #e96363;
     color: #FFFFFF;
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
   }
 .title {
-    font-family: 'Bad Script', cursive;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .specialpic {
     height: 250px;
 }
-.solidborder {
-    border: 3px solid red;
-    background-color: #FFDE96;
-    padding: 10px;
-}
+
 .fontsize2 {
     font-size: 15px;
-    border: 3px solid red;
     padding: 10px;
-    background-color: #FFDE96;
 }
 
-.border1 {
-    border: 3px dotted red;
-    padding: 20px;
-    background-color: #FFDE96;
+.info {
+    font-family: 'Quicksand', sans-serif; 
 }
+.heading {
+    font-family: 'Fredericka the Great', cursive;
+}
+
 .content {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif; 
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 3%;
-    color: black;
+    color: #1c3360;
 }
 
   #myNavbar {
@@ -45,7 +42,8 @@
   }
 
   body {
-      background-color: navajowhite;
+      background-color: #cfbfd8;
+      color: #1c3360;
   }
   .navbar-brand {
     float: left;
@@ -62,7 +60,7 @@
   .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,   
     .navbar-inverse .navbar-nav .active a:hover {
     color: white;
-    background-color: #FE0000;
+    background-color: #e96363;
   }
 
   .navbar-right {
@@ -73,21 +71,20 @@
     width: 100%;
   }
   .navbar-inverse .navbar-nav li a {
-    color: orange;
+    color: #1c3360;
   }
   .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
     text-transform: uppercase;
-    font-family: "Bad Script", cursive;
-    color: white;
+    font-family: 'Fredericka the Great', cursive;
     bottom: 20%;
   }
 
   .btn {
     font-size: 18px;
     color: white;
-    background-color: #FE0000;
+    background-color: #e96363;
     padding: 12px 22px;
     border: 2px solid #FFF;
   }
@@ -106,14 +103,18 @@
     width: 500px;
   }
 
+  .footerfont {
+    font-family: 'Fredericka the Great', cursive;
+  }
+
   footer {
     position: relative;
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-color: #FE0000;
+    background-color: #cfbfd8;
     color: white;
-    font-family: 'Bad Script', cursive;
+
   }
 
   .fa {
