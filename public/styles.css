@@ -37,6 +37,14 @@
     color: #1c3360;
 }
 
+.contentF {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    color: white;
+}
+
   #myNavbar {
     font-family: 'Bree Serif', serif;
   }
@@ -81,6 +89,14 @@
     bottom: 20%;
   }
 
+  .fallingwaterbody {
+    background-color: #CD8E32;
+  }
+  
+  .primary {
+    height: 50vh;
+    width: 40vw;
+  }
   .btn {
     font-size: 18px;
     color: white;
@@ -115,6 +131,15 @@
     background-color: #cfbfd8;
     color: white;
 
+  }
+
+  .footerF {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      background-color: #CD8E32 !important; 
+      color: white;
   }
 
   .fa {
