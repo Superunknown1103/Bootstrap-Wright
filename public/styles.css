@@ -11,8 +11,16 @@
     font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
     text-transform: uppercase;
+    background-color: white;
 }
 
+.titleF {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: #E98463;
+  color: black !important;
+}
 .specialpic {
     height: 250px;
 }
@@ -25,8 +33,10 @@
 .info {
     font-family: 'Quicksand', sans-serif; 
 }
+
 .heading {
     font-family: 'Fredericka the Great', cursive;
+    background-color: white;
 }
 
 .content {
@@ -40,9 +50,14 @@
 .contentF {
     font-family: 'Quicksand', sans-serif; 
     font-size: 20px;
-    margin-bottom: 5%;
-    margin-top: 3%;
-    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: -10%;
+    color: black;
+}
+
+.faillingwaterimg {
+  min-width: 700px !important;
 }
 
   #myNavbar {
@@ -90,7 +105,12 @@
   }
 
   .fallingwaterbody {
-    background-color: #CD8E32;
+    background-color: #EEDCDC;
+  }
+
+  .gallery {
+    background-color: #E98463;
+    margin-bottom: 2%;
   }
   
   .primary {
@@ -128,7 +148,8 @@
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-color: #cfbfd8;
+    background-color: #e96363;
+    border: 2px solid purple;
     color: white;
 
   }
@@ -175,6 +196,17 @@
 
   #icon {
     max-width: 250px;
+  }
+
+  #icon2 {
+    max-width: 95%;
+    border: 3px black solid;
+    position: relative;
+    width:  350x;
+    height: 350px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
   }
 
   h2 {
