@@ -7,19 +7,20 @@
     font-size: 1.2em;
     border: 0;
   }
+  
 .title {
     font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
     text-transform: uppercase;
-    background-color: white;
 }
 
 .titleF {
   font-family: 'Fredericka the Great', cursive;
   font-size: 30px;
   text-transform: uppercase;
-  background-color: #E98463;
+  background-color: #EEDCDC;
   color: black !important;
+  margin-top: 2%;
 }
 .specialpic {
     height: 250px;
@@ -47,6 +48,7 @@
     color: #1c3360;
 }
 
+
 .contentF {
     font-family: 'Quicksand', sans-serif; 
     font-size: 20px;
@@ -65,7 +67,7 @@
   }
 
   body {
-      background-color: #cfbfd8;
+      background-color: #EEDCDC;
       color: #1c3360;
   }
   .navbar-brand {
@@ -209,6 +211,16 @@
     background-size:     cover;
   }
 
+  #icon3 {
+    max-width: 95%;
+    border: 3px black solid;
+    position: relative;
+    width:  740px;
+    height: 350px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  }
   h2 {
     font-size: 1.7em;
   }
