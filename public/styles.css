@@ -221,6 +221,28 @@
     background-repeat:   no-repeat;
     background-size:     cover;
   }
+
+  #icon4 {
+    max-width: 95%;
+    border: 3px black solid;
+    position: relative;
+    width:  500px;
+    height: 550px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  }
+
+  #icon5 {
+    max-width: 95%;
+    border: 3px black solid;
+    position: relative;
+    width:  500px;
+    height: 275px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  }
   h2 {
     font-size: 1.7em;
   }
